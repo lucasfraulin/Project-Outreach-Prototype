@@ -8,7 +8,6 @@ body {
   font-size: 1.27rem;
 }
 
-
 .img-size-1 {
   margin: -13.15% 0;
   /*28.3*/
@@ -38,7 +37,7 @@ body {
   color: #fff;
 }
 
-.cta-col{
+.cta-col {
   margin: 3rem 0;
   padding: 0 10px;
   text-align: center;
@@ -69,7 +68,7 @@ body {
   line-height: 1.5;
 }
 
-.mission-col{
+.mission-col {
   margin: 3rem 0;
   padding: 0 10px;
 }
@@ -119,51 +118,60 @@ body {
     display: none;
   }
 
-  .big-header{
+  .big-header {
     font-size: 3rem;
     text-align: left;
     padding-top: 5%;
+    border-bottom: 1px solid #b8b8b8;
   }
 
-/* mission */
-  .mission-col{
+  .wwe-h1{
+    padding-bottom:0;
+    margin-bottom: 30px;
+  }
+
+  /* mission */
+  .mission-col {
     text-align: left;
     margin: 2rem 0;
     padding: 0 10px;
   }
-  .mission-h3, .mission-p{
+
+  .mission-h3, .mission-p {
     padding-left: 0;
   }
-  .mission-h3{
+
+  .mission-h3 {
     padding-top: 10px;
   }
 
-/* get involved + donate */
-  .cta-col{
+  /* get involved + donate */
+  .cta-col {
     text-align: left;
     margin: 2rem 0;
     padding: 0 10px;
   }
 
-  .cta-p{
+  .cta-p {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
   }
-  .cta-h3{
+
+  .cta-h3 {
     padding-bottom: 0;
     font-size: 2rem;
-  }
-  .cta-button{
-    margin-top: -10px;
+    border-bottom: 1px solid #b8b8b8;
   }
 
+  .cta-button {
+    margin-top: -10px;
+  }
 }
 
 .wwe-p {
   padding-left: 5%;
   margin-left: -5%;
-
   vertical-align: middle;
 }
 
@@ -192,7 +200,6 @@ body {
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 4px;
-  font-family: "Ubuntu";
 }
 
 @media (min-width: 320px) and (max-width: 624px) {
@@ -246,25 +253,24 @@ body {
 }
 
 /* about us */
-
-
 .about-us-title {
   padding-top: 5%;
   font-size: 3rem;
   font-weight: bold;
+  border-bottom: 1px solid #b8b8b8;
 }
 
 .about-us-content {
   padding: 20px 0;
-
   text-align: justify;
 }
 
 .about-carousel {
-  width: 500px;
+  width: 600px;
   float: right;
-  margin:5% 0  0 3%;
+  margin: 13% 0 0 3%;
   margin-bottom: 5px;
+
 }
 
 .about-carousel-fluid {
@@ -272,22 +278,23 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+
 }
 
-.about-car-img{
+.about-car-img {
   width: 100%;
   height: 100%;
-  margin-top: -50px;
-  margin-bottom: -50px;
+  margin-top: -20px;
+  margin-bottom: -80px;
 }
 
-.car-img{
-  height:100%;
-  width:100%;
+.car-img {
+  height: 100%;
+  width: 100%;
 }
 
-@media (max-width: 992){
-  .container-car{
+@media (max-width: 992) {
+  .container-car {
     width: 100%;
     padding: 0;
     margin: 0;
