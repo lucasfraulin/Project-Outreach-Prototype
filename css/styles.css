@@ -5,6 +5,7 @@ html {
 body {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #000;
+  font-size: 1.25rem;
 }
 
 .img-size-1 {
@@ -36,15 +37,19 @@ body {
   color: #fff;
 }
 
+.cta-col{
+  margin: 3rem 0;
+  padding: 0 10px;
+  text-align: center;
+}
+
 .cta-button {
   margin-bottom: 5%;
   font-size: 1.5rem;
 }
 
 .cta-p {
-  font-size: 1.25rem;
   padding: 2% 10%;
-  text-align: center;
 }
 
 .cta-h3 {
@@ -55,16 +60,20 @@ body {
   font-size: 3rem;
 }
 
-
 .big-header {
-  margin-top: -20px;
+  /* margin-top: -20px; */
   font-weight: 700;
   letter-spacing: 4px;
   font-size: 5rem;
   line-height: 1.5;
 }
 
-.mission-h1{
+.mission-col{
+  margin: 3rem 0;
+  padding: 0 10px;
+}
+
+.mission-h1 {
   padding-bottom: 0;
 }
 
@@ -86,11 +95,10 @@ body {
   padding: 0 10px;
 }
 
-
 #wwe {
   padding: 7% 10%;
-    background-color: #70AACE;
-    color: #fff;
+  background-color: #70AACE;
+  color: #fff;
 }
 
 .wwe-h1 {
@@ -98,23 +106,63 @@ body {
   padding-bottom: 5%;
 }
 
-.wwe-img{
+.wwe-img {
   margin: 10px 50px 35px 0;
   width: 375px;
   height: 325px;
   border-radius: 50%;
 }
 
-@media (max-width: 900px){
-  #wwe img{
-    display:none;
+@media (max-width: 900px) {
+  #wwe img {
+    display: none;
   }
+
+  .big-header{
+    font-size: 3rem;
+    text-align: left;
+    padding-top: 5%;
+  }
+
+/* mission */
+  .mission-col{
+    text-align: left;
+    margin: 2rem 0;
+    padding: 0 10px;
+  }
+  .mission-h3, .mission-p{
+    padding-left: 0;
+  }
+  .mission-h3{
+    padding-top: 10px;
+  }
+
+/* get involved + donate */
+  .cta-col{
+    text-align: left;
+    margin: 2rem 0;
+    padding: 0 10px;
+  }
+
+  .cta-p{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .cta-h3{
+    padding-bottom: 0;
+    font-size: 2rem;
+  }
+  .cta-button{
+    margin-top: -10px;
+  }
+
 }
 
 .wwe-p {
   padding-left: 5%;
   margin-left: -5%;
-  font-size: 1.25rem;
+
   vertical-align: middle;
 }
 
@@ -124,8 +172,8 @@ body {
 
 .carousel-caption h1 {
   font-size: 3vw;
+  font-weight: 700;
 }
-
 
 .container-fluid {
   padding: 0;
@@ -137,13 +185,13 @@ body {
   border-radius: 0;
   margin-bottom: 0;
   font-size: 14px;
-
 }
 
 .navbar-brand {
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 4px;
+  font-family: "Ubuntu";
 }
 
 @media (min-width: 320px) and (max-width: 624px) {
@@ -170,7 +218,6 @@ body {
 #our-mission {
   text-align: center;
   padding: 7% 10%;
-
   position: relative;
   /* color: #fff; */
 }
@@ -179,8 +226,7 @@ body {
   padding: 1.5rem;
 }
 
-
-#footer{
+#footer {
   text-align: center;
   padding-top: 2%;
   padding-bottom: 1%;
@@ -188,12 +234,40 @@ body {
   color: #000;
 }
 
-.footer-icons{
+.footer-icons {
   padding-left: 1%;
   padding-right: 1%;
   padding-bottom: 1rem;
 }
 
-.copyright-text{
+.copyright-text {
   font-size: 11px;
+}
+
+/* about us */
+#about-us-page {
+  padding: 7% 7%;
+}
+
+.about-us-title {
+  padding: 0 20px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about-content-section {
+  padding: 10px 0;
+}
+
+.about-us-content {
+  padding: 20px;
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+#about-carousel {
+  width: 600px;
+  float: right;
+  margin: 20px 5%;
+  margin-right: 0;
 }
