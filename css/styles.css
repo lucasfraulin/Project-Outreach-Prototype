@@ -219,7 +219,7 @@ body {
   }
 }
 
-.nav-item {
+nav .nav-item {
   padding-left: 3px;
 }
 
@@ -293,10 +293,52 @@ body {
   width: 100%;
 }
 
-@media (max-width: 992) {
+@media (max-width: 992px) {
   .container-car {
     width: 100%;
     padding: 0;
     margin: 0;
+  }
+
+  /* project */
+  .peru-img{
+    display: none !important;
+  }
+}
+
+/* project */
+
+.peru-img{
+  max-height: 750px;
+  float: right;
+  margin: 20px 0 0 3%;
+  margin-bottom: 5px;
+}
+
+.project-tabs{
+  background-color: #333333;
+  padding-top: 1%;
+}
+.tab-content{
+  background-color: white;
+}
+.tab-styles{
+  font-size: 0.8rem;
+}
+
+.carousel-caption .projects-title-caption {
+  font-size: 400%;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: #000;
+  text-shadow: 1px 1px 4px #676767;
+}
+
+@media (max-width: 767.98px){
+  .tab-styles{
+    font-size: 0.6rem !important;
+  }
+  .carousel-caption .projects-title-caption {
+    font-size: 300%;
   }
 }
