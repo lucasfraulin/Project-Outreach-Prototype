@@ -326,19 +326,42 @@ nav .nav-item {
   font-size: 0.8rem;
 }
 
-.carousel-caption .projects-title-caption {
-  font-size: 400%;
-  font-weight: 700;
-  letter-spacing: 4px;
+.img-box{
+  height:244px;
+}
+.project-header {
   color: #000;
   text-shadow: 1px 1px 4px #676767;
 }
+.img-fit{
+  object-fit: cover;
+  height: 244px;
+  width: 100%;
+  padding: 0;
+  opacity: 0.5;
+}
+.img-col{
+  padding:0;
+}
+
 
 @media (max-width: 767.98px){
   .tab-styles{
     font-size: 0.6rem !important;
   }
-  .carousel-caption .projects-title-caption {
-    font-size: 300%;
-  }
+
+}
+#project-header{
+  height: 244px;
+}
+
+.project-header-container{
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
