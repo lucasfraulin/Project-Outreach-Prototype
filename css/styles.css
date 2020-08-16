@@ -1,11 +1,29 @@
+/* colors */
+/* dark text color */
+/* #25497c  */
+/* secondary */
+/* #4d81ca; */
+/* supporting color 1 */
+/* #7aa3db */
+/* supporting color 2 */
+/* #a2bee5 */
+/* supporting color 3 */
+/* #d1ddeb */
+/* primary */
+/* #fafafa */
 html {
   min-height: 100%;
 }
 
 body {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #000;
-  font-size: 1.27rem;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #4d81ca;
+  background-color: #fafafa;
+  font-size: 1.4rem;
+}
+
+.navbar-brand, h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
 }
 
 .img-size-1 {
@@ -33,8 +51,8 @@ body {
 #cta {
   padding: 2% 10%;
   text-align: center;
-  background-color: #70AACE;
-  color: #fff;
+  background-color: #d1ddeb;
+  color: #4d81ca;
 }
 
 .cta-col {
@@ -53,7 +71,7 @@ body {
 }
 
 .cta-h3 {
-  font-weight: 700;
+  /* font-weight: 700; */
   padding-top: 10px;
   letter-spacing: 4px;
   line-height: 1.5;
@@ -61,9 +79,6 @@ body {
 }
 
 .big-header {
-  /* margin-top: -20px; */
-  font-weight: 700;
-  letter-spacing: 4px;
   font-size: 5rem;
   line-height: 1.5;
 }
@@ -79,14 +94,13 @@ body {
 
 .mission-h3 {
   margin-top: -20px;
-  font-weight: 700;
+  /* font-weight: 700; */
   letter-spacing: 2px;
   line-height: 1.5;
   font-size: 1.5rem;
 }
 
 .mission-p {
-  /* color: #E4E4E4; */
   padding: 0 3%;
 }
 
@@ -97,8 +111,8 @@ body {
 
 #wwe {
   padding: 7% 10%;
-  background-color: #70AACE;
-  color: #fff;
+  background-color: #7aa3db;
+  color:#fafafa;
 }
 
 .wwe-h1 {
@@ -113,20 +127,34 @@ body {
   border-radius: 50%;
 }
 
+.wwe-p {
+  padding-left: 5%;
+  margin-left: -5%;
+  vertical-align: middle;
+}
+
 @media (max-width: 900px) {
   #wwe img {
     display: none;
+  }
+
+  .nav-tabs {
+    font-size: 1rem !important;
   }
 
   .big-header {
     font-size: 3rem;
     text-align: left;
     padding-top: 5%;
-    border-bottom: 1px solid #b8b8b8;
+    border-bottom: 1px solid #c1d9ff;
   }
 
-  .wwe-h1{
-    padding-bottom:0;
+  .project-header {
+    font-size: 4rem !important;
+  }
+
+  .wwe-h1 {
+    padding-bottom: 0;
     margin-bottom: 30px;
   }
 
@@ -169,41 +197,50 @@ body {
   }
 }
 
-.wwe-p {
-  padding-left: 5%;
-  margin-left: -5%;
-  vertical-align: middle;
-}
-
 .carousel-caption {
   text-shadow: 1px 1px 4px #676767;
 }
 
 .carousel-caption h1 {
   font-size: 3vw;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .container-fluid {
   padding: 0;
   margin: 0;
+  position: relative;
+  overflow: hidden;
 }
+
+
 
 .navbar {
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 1rem;
+  padding: 2% 10% ;
+  background-color: #25497c;
+  font-family: 'Montserrat';
 }
 
 .navbar-brand {
-  font-size: 2.5rem;
-  font-weight: 700;
-  letter-spacing: 4px;
+  font-family: 'Ubuntu';
+  font-size: 3vw;
+  font-weight: 400;
 }
 
-@media (min-width: 320px) and (max-width: 624px) {
+.navbar-brand:hover {
+  color: #fafafa;
+}
+
+@media (min-width: 390px) and (max-width: 624px) {
   .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .navbar {
     font-size: 1rem;
   }
 }
@@ -213,21 +250,41 @@ body {
     font-size: 0.7rem;
   }
 
+  .nav-tabs {
+    font-size: 0.5rem !important;
+  }
+
   .navbar-brand img {
     height: 20px;
     width: 35px;
   }
+
+  .big-header {
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 5%;
+    border-bottom: 1px solid #b8b8b8;
+  }
+
+  body {
+    font-size: 0.8rem;
+  }
+
+  .project-header {
+    font-size: 3rem !important;
+  }
 }
 
+nav {}
+
 nav .nav-item {
-  padding-left: 3px;
+  padding-left: 6px;
 }
 
 #our-mission {
   text-align: center;
   padding: 7% 10%;
   position: relative;
-  /* color: #fff; */
 }
 
 #our-mission i {
@@ -238,14 +295,17 @@ nav .nav-item {
   text-align: center;
   padding-top: 2%;
   padding-bottom: 1%;
-  background-color: #f5f5f5;
-  color: #000;
+  background-color: #4d81ca;;
+  color: #fafafa;
 }
 
 .footer-icons {
   padding-left: 1%;
   padding-right: 1%;
   padding-bottom: 1rem;
+}
+i:hover {
+  color:#25497c;
 }
 
 .copyright-text {
@@ -256,13 +316,13 @@ nav .nav-item {
 .about-us-title {
   padding-top: 5%;
   font-size: 3rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   border-bottom: 1px solid #b8b8b8;
 }
 
 .about-us-content {
   padding: 20px 0;
-  text-align: justify;
+  text-align: left;
 }
 
 .about-carousel {
@@ -270,7 +330,6 @@ nav .nav-item {
   float: right;
   margin: 13% 0 0 3%;
   margin-bottom: 5px;
-
 }
 
 .about-carousel-fluid {
@@ -278,7 +337,6 @@ nav .nav-item {
   height: 100%;
   padding: 0;
   margin: 0;
-
 }
 
 .about-car-img {
@@ -301,67 +359,75 @@ nav .nav-item {
   }
 
   /* project */
-  .peru-img{
+  .peru-img {
     display: none !important;
   }
 }
 
 /* project */
-
-.peru-img{
+.peru-img {
   max-height: 750px;
   float: right;
   margin: 20px 0 0 3%;
   margin-bottom: 5px;
 }
 
-.project-tabs{
+.project-tabs {
   background-color: #333333;
   padding-top: 1%;
 }
-.tab-content{
+
+.tab-content {
   background-color: white;
 }
-.tab-styles{
+
+.tab-styles {
   font-size: 0.8rem;
 }
 
-.img-box{
-  height:244px;
-}
-.project-header {
-  color: #000;
-  text-shadow: 1px 1px 4px #676767;
-}
-.img-fit{
-  object-fit: cover;
+.img-box {
   height: 244px;
+}
+
+.img-fit {
+  object-fit: cover;
+  height: 122px;
   width: 100%;
-  padding: 0;
   opacity: 0.5;
 }
-.img-col{
-  padding:0;
+
+.img-col {
+  padding: 0;
 }
 
-
-@media (max-width: 767.98px){
-  .tab-styles{
-    font-size: 0.6rem !important;
-  }
-
-}
-#project-header{
-  height: 244px;
+.tab-pane {
+  /* background-color: #70AACE; */
 }
 
-.project-header-container{
-  text-align: center;
+#project-header {
+  height: 122px;
+}
+
+.project-header {
+  /* font-weight: 700; */
+  font-family: "Orkney";
+  /* letter-spacing: 4px; */
+  font-size: 5rem;
+  text-shadow: 1px 1px 4px #676767;
 }
 
 .centered {
   position: absolute;
-  top: 30%;
+  top: 61px;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.project-content {
+  padding: 20px 0;
+  text-align: left;
+}
+
+.project-container {
+  /* background-color: #fff; */
 }
