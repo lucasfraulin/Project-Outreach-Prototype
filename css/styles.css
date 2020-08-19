@@ -10,133 +10,65 @@
 /* supporting color 3 */
 /* #d1ddeb */
 /* primary */
-/* #fafafa */
-html {
-  min-height: 100%;
+/* #fff */
+@font-face {
+  font-family: polly;
+  src: url(fonts/Polly-Regular.woff);
+  src: url(fonts/Polly-Regular.woff2);
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  color: #4d81ca;
-  background-color: #fafafa;
-  font-size: 1.4rem;
-}
-
-.navbar-brand, h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat";
-}
-
-.img-size-1 {
-  margin: -13.15% 0;
-  /*28.3*/
-}
-
-.img-size-2 {
-  margin-bottom: -33%;
-  /*35*/
-}
-
-.img-size-3 {
-  margin-top: -17%;
-  margin-bottom: -17.6%;
-  /*36.5*/
-}
-
-.img-size-4 {
-  margin-top: -13%;
-  margin-bottom: -19.8%;
-  /*34.7*/
-}
-
-#cta {
-  padding: 2% 10%;
-  text-align: center;
-  background-color: #d1ddeb;
-  color: #4d81ca;
-}
-
-.cta-col {
-  margin: 3rem 0;
-  padding: 0 10px;
-  text-align: center;
-}
-
-.cta-button {
-  margin-bottom: 5%;
-  font-size: 1.5rem;
-}
-
-.cta-p {
-  padding: 2% 10%;
-}
-
-.cta-h3 {
-  /* font-weight: 700; */
-  padding-top: 10px;
-  letter-spacing: 4px;
-  line-height: 1.5;
-  font-size: 3rem;
+  font-family: "Open Sans", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
 }
 
 .big-header {
-  font-size: 5rem;
-  line-height: 1.5;
+  font-size: 4rem;
+  font-weight: 600;
 }
 
-.mission-col {
-  margin: 3rem 0;
-  padding: 0 10px;
+.smaller-letters{
+  font-size: 3.5rem;
 }
 
-.mission-h1 {
-  padding-bottom: 0;
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.mission-h3 {
-  margin-top: -20px;
-  /* font-weight: 700; */
-  letter-spacing: 2px;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
 }
 
-.mission-p {
-  padding: 0 3%;
+.navbar-brand,.navbar, h1, h2, h3, h4, h5, h6 {
+  font-family: polly;
 }
+
+@media (max-width: 430px){
+  .navbar-brand img{
+    width: 200px;
+  }
+}
+
 
 .col-text {
   margin: 3rem 0;
   padding: 0 10px;
 }
 
-#wwe {
-  padding: 7% 10%;
-  background-color: #7aa3db;
-  color:#fafafa;
-}
 
-.wwe-h1 {
-  text-align: center;
-  padding-bottom: 5%;
-}
-
-.wwe-img {
-  margin: 10px 50px 35px 0;
-  width: 375px;
-  height: 325px;
-  border-radius: 50%;
-}
-
-.wwe-p {
-  padding-left: 5%;
-  margin-left: -5%;
-  vertical-align: middle;
-}
 
 @media (max-width: 900px) {
-  #wwe img {
-    display: none;
-  }
 
   .nav-tabs {
     font-size: 1rem !important;
@@ -144,56 +76,13 @@ body {
 
   .big-header {
     font-size: 3rem;
-    text-align: left;
-    padding-top: 5%;
-    border-bottom: 1px solid #c1d9ff;
+  }
+  .smaller-letters{
+    font-size: 2.7rem;
   }
 
   .project-header {
     font-size: 4rem !important;
-  }
-
-  .wwe-h1 {
-    padding-bottom: 0;
-    margin-bottom: 30px;
-  }
-
-  /* mission */
-  .mission-col {
-    text-align: left;
-    margin: 2rem 0;
-    padding: 0 10px;
-  }
-
-  .mission-h3, .mission-p {
-    padding-left: 0;
-  }
-
-  .mission-h3 {
-    padding-top: 10px;
-  }
-
-  /* get involved + donate */
-  .cta-col {
-    text-align: left;
-    margin: 2rem 0;
-    padding: 0 10px;
-  }
-
-  .cta-p {
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-  }
-
-  .cta-h3 {
-    padding-bottom: 0;
-    font-size: 2rem;
-    border-bottom: 1px solid #b8b8b8;
-  }
-
-  .cta-button {
-    margin-top: -10px;
   }
 }
 
@@ -206,39 +95,22 @@ body {
   /* font-weight: 700; */
 }
 
-.container-fluid {
-  padding: 0;
-  margin: 0;
-  position: relative;
-  overflow: hidden;
-}
+
 
 
 
 .navbar {
-  border: 0;
   border-radius: 0;
-  margin-bottom: 0;
   font-size: 1rem;
-  padding: 2% 10% ;
-  background-color: #25497c;
   font-family: 'Montserrat';
+
 }
 
-.navbar-brand {
-  font-family: 'Ubuntu';
-  font-size: 3vw;
-  font-weight: 400;
+.navbar .btn{
 }
 
-.navbar-brand:hover {
-  color: #fafafa;
-}
 
 @media (min-width: 390px) and (max-width: 624px) {
-  .navbar-brand {
-    font-size: 1rem;
-  }
 
   .navbar {
     font-size: 1rem;
@@ -246,28 +118,21 @@ body {
 }
 
 @media (max-width: 390px) {
-  .navbar-brand {
-    font-size: 0.7rem;
-  }
 
   .nav-tabs {
     font-size: 0.5rem !important;
   }
 
-  .navbar-brand img {
-    height: 20px;
-    width: 35px;
-  }
 
   .big-header {
     font-size: 2rem;
-    text-align: left;
-    padding-top: 5%;
-    border-bottom: 1px solid #b8b8b8;
+  }
+  .smaller-letters{
+    font-size: 1.8rem;
   }
 
   body {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .project-header {
@@ -275,27 +140,18 @@ body {
   }
 }
 
-nav {}
-
 nav .nav-item {
   padding-left: 6px;
 }
 
-#our-mission {
-  text-align: center;
-  padding: 7% 10%;
-  position: relative;
+.nav-link{
 }
 
-#our-mission i {
-  padding: 1.5rem;
-}
 
 #footer {
   text-align: center;
   padding-top: 2%;
   padding-bottom: 1%;
-  background-color: #4d81ca;;
   color: #fafafa;
 }
 
@@ -303,10 +159,13 @@ nav .nav-item {
   padding-left: 1%;
   padding-right: 1%;
   padding-bottom: 1rem;
+  padding-top: 2%;
 }
-i:hover {
-  color:#25497c;
+
+.footer-icons:hover{
+  color: #4d81ca;
 }
+
 
 .copyright-text {
   font-size: 11px;
@@ -315,9 +174,9 @@ i:hover {
 /* about us */
 .about-us-title {
   padding-top: 5%;
-  font-size: 3rem;
+  font-size: 2rem;
   /* font-weight: bold; */
-  border-bottom: 1px solid #b8b8b8;
+  border-bottom: 1px solid #d1ddeb;
 }
 
 .about-us-content {
@@ -408,20 +267,6 @@ i:hover {
   height: 122px;
 }
 
-.project-header {
-  /* font-weight: 700; */
-  font-family: "Orkney";
-  /* letter-spacing: 4px; */
-  font-size: 5rem;
-  text-shadow: 1px 1px 4px #676767;
-}
-
-.centered {
-  position: absolute;
-  top: 61px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .project-content {
   padding: 20px 0;

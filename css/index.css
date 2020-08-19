@@ -1,0 +1,208 @@
+/* colors */
+/* dark text color */
+/* #25497c  */
+/* secondary */
+/* #4d81ca; */
+/* supporting color 4 */
+/* #6695D6 */
+/* supporting color 1 */
+/* #7aa3db */
+/* supporting color 2 */
+/* #a2bee5 */
+/* supporting color 3 */
+/* #d1ddeb */
+/* primary */
+/* #fff */
+
+/* color classes */
+.text-myprimary{
+  color: #007cfa;
+}
+
+.text-mysecondary{
+  color: #15BEF0;
+}
+
+.img-size-1 {
+  margin: -13.15% 0;
+  /*28.3*/
+}
+
+.img-size-2 {
+  margin-bottom: -33%;
+  /*35*/
+}
+
+.img-size-3 {
+  margin-top: -17%;
+  margin-bottom: -17.6%;
+  /*36.5*/
+}
+
+.img-size-4 {
+  margin-top: -13%;
+  margin-bottom: -19.8%;
+  /*34.7*/
+}
+
+.card{
+  border: none;
+  height: 300px;
+  margin: 5%;
+}
+
+/* call to acion */
+#cta{
+  padding: 2% 7%;
+}
+
+#cta, .cta-col{
+  text-align: center;
+}
+
+
+.cta-button {
+  font-size: 1.5rem;
+}
+
+.cta-col {
+  margin: 3rem 0;
+  padding: 1% 7%;
+}
+
+.cta-h3 {
+  font-size: 2.5rem;
+}
+
+.learn-more{
+  margin-top: 5%;
+  padding: 5px 20px;
+  font-size: 1.5rem;
+}
+
+/* our mission *******************/
+#our-mission {
+  padding:7%;
+  text-align: center;
+}
+
+#our-mission i {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  margin-top: 0;
+}
+
+#our-mission i:hover {
+
+}
+
+.mission-col {
+  margin: 1.5rem 0;
+}
+
+.mission-h1 {
+  margin-bottom: 5%;
+}
+
+
+.mission-h3 {
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-size: 1.5rem;
+
+}
+
+.mission-p {
+  font-size: 0.9rem;
+
+}
+
+
+/* parallax *******************************/
+
+
+.parallax-1, .parallax-2, .parallax-3, .parallax-4{
+  /* Set a specific height */
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-1{
+  position: relative;
+  min-height: 600px;
+  /* The image used */
+  background-image: url("../images/img-1.webp");
+}
+
+.parallax-2{
+  min-height: 400px;
+  /* The image used */
+  background-image: url("../images/img-2.webp");
+}
+
+.parallax-3{
+  min-height: 400px;
+  /* The image used */
+  background-image: url("../images/img-3.webp");
+}
+
+.parallax-4{
+  min-height: 400px;
+  /* The image used */
+  background-image: url("../images/img-4.webp");
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax-caption{
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+
+/* who we are************************************************ */
+#wwe {
+  padding: 7% 10%;
+  text-align: center;
+}
+
+.wwe-h1 {
+  padding-bottom: 5%;
+}
+
+.wwe-img {
+  margin: 10px 50px 35px 0;
+  width: 375px;
+  height: 325px;
+  border-radius: 50%;
+}
+
+.wwe-p {
+
+}
+
+/* media queries ******************************************/
+@media(max-width: 768px){
+  .card {
+    padding: 5% 0;
+  }
+}
+
+@media (min-width: 1800px){
+  .parallax-1, .parallax-2, .parallax-3, .parallax-4{
+    min-height: 800px;
+  }
+}
