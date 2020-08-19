@@ -224,7 +224,8 @@
 }
 
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
+  .parallax-1, .parallax-2, .parallax-3, .parallax-4{
     background-attachment: scroll;
+    height: auto;
   }
 }
