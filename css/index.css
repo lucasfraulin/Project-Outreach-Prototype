@@ -135,25 +135,25 @@
   position: relative;
   min-height: 600px;
   /* The image used */
-  background-image: url("../images/img-1.webp");
+  background-image: url("../images/img-1.png");
 }
 
 .parallax-2{
   min-height: 400px;
   /* The image used */
-  background-image: url("../images/img-2.webp");
+  background-image: url("../images/img-2.png");
 }
 
 .parallax-3{
   min-height: 400px;
   /* The image used */
-  background-image: url("../images/img-3.webp");
+  background-image: url("../images/img-3.png");
 }
 
 .parallax-4{
   min-height: 400px;
   /* The image used */
-  background-image: url("../images/img-4.webp");
+  background-image: url("../images/img-4.png");
 }
 
 .layer {
