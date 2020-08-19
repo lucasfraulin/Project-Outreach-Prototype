@@ -33,6 +33,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
+
         <li class="nav-item active" id="home">
           <a class="nav-link" href="#">Home</a>
         </li>
@@ -48,12 +49,10 @@
         <li class="nav-item" id="contact">
           <a class="nav-link" href="contact-us.html">Contact</a>
         </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-danger btn-md">Donate</button>
+        </li>
       </ul>
-    </div>
-    <div class="navbar-nav">
-      <div class="nav-item">
-        <button type="button" class="btn btn-danger btn-md">Donate</button>
-      </div>
     </div>
 
   </nav>
@@ -87,7 +86,7 @@
           <br><br>
           Project Outreach believes the best way to provide this care is through local Health Care Professionals. Our team of physicians, nurses and allied health care workers focus on education and fostering the independance.
         </div>
-        <button type="button" href="about-us.html" class="btn btn-xl btn-outline-primary learn-more">Learn More</button>
+        <button type="button" href="about-us.html" onclick="window.location.href='about-us.html'" class="btn btn-xl btn-outline-primary learn-more">Learn More</button>
       </div>
 
     </section>
@@ -155,7 +154,7 @@ call to action -->
                 </p>
               </div>
               <div class="card-footer bg-white">
-                <button type="button" class="cta-button btn btn-primary  btn-xl" href="contact-us.html"><i class="fas fa-hands-helping "></i> Contact Us</button>
+                <button type="button" class="cta-button btn btn-primary  btn-xl" onclick="window.location.href='contact-us.html'"><i class="fas fa-hands-helping "></i> Contact Us</button>
               </div>
             </div>
           </div>
@@ -176,7 +175,6 @@ call to action -->
     <i class="fas fa-envelope fa-2x footer-icons"></i>
 
     <p class="address-text">22 Rolling Acres Drive, Calgary AB, Canada T3R 1B8</p>
-
     <p class="copyright-text">© Copyright 2020 Project Outreach</p>
 
   </footer>

@@ -17,6 +17,15 @@
   src: url(fonts/Polly-Regular.woff2);
 }
 
+/* color classes */
+.text-myprimary{
+  color: #007cfa;
+}
+
+.text-mysecondary{
+  color: #15BEF0;
+}
+
 html, body {
   height: 100%;
 }
@@ -29,6 +38,15 @@ body {
 .big-header {
   font-size: 4rem;
   font-weight: 600;
+}
+
+.medium-header{
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.m-top{
+  margin-top: 5%;
 }
 
 .smaller-letters{
@@ -54,6 +72,10 @@ body {
   font-family: polly;
 }
 
+ h1, h2, h3, h4, h5, h6 {
+   font-weight: 600;
+ }
+
 @media (max-width: 430px){
   .navbar-brand img{
     width: 200px;
@@ -76,7 +98,7 @@ body {
 
 @media (max-width: 900px) {
 
-  .nav-tabs {
+  .nav-pills {
     font-size: 1rem !important;
   }
 
@@ -111,10 +133,6 @@ body {
   font-family: 'Montserrat';
 
 }
-
-.navbar .btn{
-}
-
 
 @media (min-width: 390px) and (max-width: 624px) {
 
@@ -223,20 +241,15 @@ nav .nav-item {
   .peru-img {
     display: none !important;
   }
+
+  .peru-img-2{
+    display: block;
+  }
 }
 
-/* project */
-.peru-img {
-  max-height: 750px;
-  float: right;
-  margin: 20px 0 0 3%;
-  margin-bottom: 5px;
-}
 
-.project-tabs {
-  background-color: #333333;
-  padding-top: 1%;
-}
+
+
 
 .tab-content {
   background-color: white;
