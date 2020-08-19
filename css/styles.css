@@ -59,7 +59,13 @@ body {
     width: 200px;
   }
 }
+@media(max-width: 768px){
 
+  body{
+    font-size: 1rem;
+  }
+
+}
 
 .col-text {
   margin: 3rem 0;
@@ -129,10 +135,6 @@ body {
   }
   .smaller-letters{
     font-size: 1.8rem;
-  }
-
-  body {
-    font-size: 0.9rem;
   }
 
   .project-header {

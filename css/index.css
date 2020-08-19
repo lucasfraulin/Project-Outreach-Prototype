@@ -47,13 +47,19 @@
 
 .card{
   border: none;
-  height: 300px;
-  margin: 5%;
+}
+
+.card-header{
+  border: none;
+}
+
+.card-footer{
+  border: none;
 }
 
 /* call to acion */
 #cta{
-  padding: 2% 7%;
+  padding: 4% 0;
 }
 
 #cta, .cta-col{
@@ -63,15 +69,17 @@
 
 .cta-button {
   font-size: 1.5rem;
+  width: 250px;
 }
 
 .cta-col {
   margin: 3rem 0;
-  padding: 1% 7%;
 }
 
+
+
 .cta-h3 {
-  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 .learn-more{
@@ -113,7 +121,6 @@
 
 .mission-p {
   font-size: 0.9rem;
-
 }
 
 
@@ -175,8 +182,8 @@
 
 /* who we are************************************************ */
 #wwe {
-  padding: 7% 10%;
   text-align: center;
+  padding: 7% 0;
 }
 
 .wwe-h1 {
@@ -194,15 +201,48 @@
 
 }
 
-/* media queries ******************************************/
-@media(max-width: 768px){
-  .card {
-    padding: 5% 0;
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #wwe{
+      padding: 7% 10%;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card{
+    margin: 5%;
+    min-height: 300px;
+    max-height: 350px;
+  }
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body{
+    font-size: 0.9rem;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .bottom-card{
+    margin-top: 5%;
+    padding-top: 5%;
+    border-top: 1px solid #bbbbbb;
   }
 }
 
 @media (min-width: 1800px){
   .parallax-1, .parallax-2, .parallax-3, .parallax-4{
     min-height: 800px;
+  }
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
   }
 }
