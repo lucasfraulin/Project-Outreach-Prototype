@@ -39,6 +39,10 @@ body {
   font-size: 1.2rem;
 }
 
+.min-h-100{
+  min-height: 100%;
+}
+
 .big-header {
   font-size: 4rem;
   font-weight: 600;
@@ -54,8 +58,10 @@ body {
   padding-top:10px;
 }
 
-.sub-header {
-  font-size: 0.93rem;
+.small-header{
+  font-size: 1.75rem;
+  font-weight: 600;
+  padding-top:10px;
 }
 
 .m-top{

@@ -4,12 +4,6 @@ html, body{
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 /* about us */
-.about-us-title {
-  padding-top: 5%;
-  font-size: 2rem;
-  /* font-weight: bold; */
-  border-bottom: 1px solid #d1ddeb;
-}
 
 .about-us-content {
   padding: 20px 0;

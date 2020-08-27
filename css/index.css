@@ -21,7 +21,7 @@
 
 /* call to acion */
 #cta{
-  padding: 4% 0;
+
 }
 
 #cta, .cta-col{
@@ -174,9 +174,7 @@
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .card{
-    margin: 5%;
-    min-height: 300px;
-    max-height: 350px;
+    padding: 2%;
   }
 }
 
@@ -189,12 +187,7 @@
 }
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-  .bottom-card{
-    margin-top: 5%;
-    padding-top: 5%;
-  }
-}
+
 
 @media (min-width: 1800px){
   .parallax-1, .parallax-2, .parallax-3, .parallax-4{
