@@ -13,6 +13,7 @@
   <script src="https://kit.fontawesome.com/262d6fb903.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/contact-us.css">
 
   <!-- monserrat font embed -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Open+Sans&display=swap" rel="stylesheet">
@@ -46,12 +47,10 @@
         <li class="nav-item active" id="contact">
           <a class="nav-link" href="#">Contact</a>
         </li>
+        <li class="nav-item">
+          <button type="button" onclick="window.open('https://www.canadahelps.org/en/charities/id/51531/')" class="btn btn-danger btn-md">Donate</button>
+        </li>
       </ul>
-    </div>
-    <div class="navbar-nav">
-      <div class="nav-item">
-        <button type="button" class="btn btn-danger btn-md">Donate</button>
-      </div>
     </div>
 
   </div>
@@ -59,8 +58,51 @@
 
 
 <body>
-  <div class="container-fluid h-100">
+  <div class="container-fluid min-h-100">
 
+    <div class="container">
+
+
+    <div class="jumbotron jumbotron-fluid mb-0 bg-transparent text-center">
+      <div class="container">
+        <h1 class="display-3 text-primary">Contact Us</h1>
+        <p class="text-secondary">Reach out and get involved today.</p>
+      </div>
+    </div>
+
+    <form>
+			<div id="contact-form" class="form-container mt-0" data-form-container>
+			<div class="input-container mt-0">
+				<div class="row">
+					<span class="req-input" >
+						<span class="input-status" data-toggle="tooltip" data-placement="top" title="Input Your First and Last Name."> </span>
+						<input type="text" data-min-length="8" placeholder="Full Name">
+					</span>
+				</div>
+				<div class="row">
+					<span class="req-input">
+						<span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input Your Email."> </span>
+						<input type="email" placeholder="Email">
+					</span>
+				</div>
+				<div class="row">
+					<span class="req-input">
+						<span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Input the Subject of Your Message."> </span>
+						<input type="tel" placeholder="Subject">
+					</span>
+				</div>
+				<div class="row">
+					<span class="req-input message-box">
+						<span class="input-status" data-toggle="tooltip" data-placement="top" title="Please Include a Message."> </span>
+						<textarea type="textarea" data-min-length="10" placeholder="Message"></textarea>
+				</div>
+				<div class="row submit-row">
+					<button type="button" class="btn btn-block submit-form">Submit</button>
+				</div>
+			</div>
+			</div>
+			</form>
+</div>
 
   </div>
 
@@ -82,6 +124,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
   <script src="index.js" charset="utf-8"></script>
+  <script src="contact-us.js" charset="utf-8"></script>
 </body>
 
 </html>

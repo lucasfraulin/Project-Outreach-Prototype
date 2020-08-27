@@ -8,7 +8,8 @@ html, body{
   box-shadow: 0 1px 5px rgb(138, 137, 137);
   padding: 0 15px 15px;
   background-color: white;
-  min-height: 350px;
+  font-size: 13px;
+
 }
 
 .donate-button{
@@ -17,3 +18,31 @@ html, body{
   font-weight: 600;
   margin-bottom: 20px;
 }
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card-1, .card-2{
+    height: 315px;
+    font-size: 15px;
+  }
+  .card-3{
+    height: auto;
+    font-size: 15px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .card{height: 330px !important;}
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .card{
+    height: 300px !important;
+  }
+ }

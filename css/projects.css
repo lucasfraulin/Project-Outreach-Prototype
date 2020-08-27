@@ -1,8 +1,8 @@
 /* project */
-html, body{
+ html, body{
   background-color: #ffffff;
   background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+ /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you!  */
 }
 
 .nav-item .active{
