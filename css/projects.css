@@ -75,11 +75,14 @@
 }
 
 @media (max-width: 992px) {
-  .peru-img, .marco-img {
+.peru-img  /*  .marco-img */{
     display: none !important;
   }
 
   .peru-img-2 {
-    display: block;
+    display: block !important;
+    
+    width: 100%;
+    object-fit: cover;
   }
 }
