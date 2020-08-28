@@ -79,18 +79,10 @@
     display: none !important;
   }
 
-  .mycontainer{
-    margin-bottom: 0;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-
   .peru-img-2 {
     display: block !important;
-    height: 400px;
+    
     width: 100%;
     object-fit: cover;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
   }
 }
